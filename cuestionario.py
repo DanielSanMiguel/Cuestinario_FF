@@ -6,13 +6,9 @@ Created on Sat Oct 21 21:12:20 2023
 """
 
 import streamlit as st
-import pandas as pd
-from airtable import Airtable
 import requests
-import os
 import json
-from dotenv import load_dotenv
-load_dotenv('C:\\Users\\Daniel\\Desktop\\Python\\.env')
+
 api_key = st.secrets('at_token')
 base_id = 'appFezarrh9fv6WrS'
 table_name = 'cuestionario'
