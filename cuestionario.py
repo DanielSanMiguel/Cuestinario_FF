@@ -9,7 +9,7 @@ import streamlit as st
 import requests
 import json
 
-api_key = st.secrets('at_token')
+api_key = st.secrets['at_token']
 base_id = 'appFezarrh9fv6WrS'
 table_name = 'cuestionario'
 headers = {"Authorization" : f"Bearer {api_key}",  "Content-Type" : 'application/json' }
