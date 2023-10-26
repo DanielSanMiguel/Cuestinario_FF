@@ -8,6 +8,7 @@ Created on Sat Oct 21 21:12:20 2023
 import streamlit as st
 import requests
 import json
+from PIL import Image
 #import os
 #from dotenv import load_dotenv
 #load_dotenv('C:\\Users\\Daniel\\Desktop\\Python\\.env')
@@ -23,8 +24,8 @@ pilots = ['piloto_1', 'piloto_2']
 user = st.text_input('Introduzca su nombre completo:')
 if user in clients:
     contenedor = st.container()
-    with open('logo.png','r') as f:
-        image = contenedor.image(f)
+    image = Image.open('logo.png')
+    contenedor.image(image)
     incidencias = contenedor.text_input('Incidencias')
     calidad = contenedor.text_input('Calidad del Servicio')
     calificacion = contenedor.select_slider('Calificacion: de 1 (muy mal) a 5 (excelente)',options=[1,2,3,4,5])
