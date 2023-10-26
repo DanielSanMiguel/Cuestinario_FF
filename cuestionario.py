@@ -25,7 +25,7 @@ user = st.text_input('Introduzca su nombre completo:')
 if user in clients:
     st.image(image)
     contenedor = st.container()
-    user
+    contenedor.write(user)
     incidencias = contenedor.text_input('Incidencias')
     calidad = contenedor.text_input('Calidad del Servicio')
     calificacion = contenedor.select_slider('Calificacion: de 1 (muy mal) a 5 (excelente)',options=[1,2,3,4,5])
