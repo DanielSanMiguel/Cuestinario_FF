@@ -8,13 +8,8 @@
   "theme_color": "#0074e4",
   "icons": [
     {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
+      "src": "https://cuestinario-flyfut.streamlit.app:443/~/+/media/d7c1960ed51188b45bbc3efd220a60ed44e894b508ac0169effdb78e.png",
+      "sizes": "3202x132",
       "type": "image/png"
     }
   ]
