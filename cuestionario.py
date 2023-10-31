@@ -21,7 +21,7 @@ image = Image.open('logo.png')
 clients = ['analista_1', 'analista_2']
 pilots = ['piloto_1', 'piloto_2']
 st.markdown(
-    f'<a href="/path/to/manifest.json" rel="manifest">Descargar el archivo de manifiesto</a>',
+    f'<a href="https://share.streamlit.io/danielsanmiguel/cuestionario_ff/main/manifest.json" rel="manifest">Descargar el archivo de manifiesto</a>',
     unsafe_allow_html=True
 )
 user = st.text_input('Introduzca su nombre completo:')
